@@ -1,0 +1,28 @@
++ to dos
+come up with a name!
+research apollo and hooks for quick intro
+build out front end with mock data
+research, does java B.E. work with apollo?
+make logging in a thing, authentification and auth id to cookies from indigo interview
+
++ components
+view all opportunities
+individual opportunity/submit proposal form
+create an opportunity
+nav bar
+
++ tech features
+More typescript
+hooks
+pagination
+apollo
+bootstrap?
+java/serverless/aws/lambda
+
++ resources
+https://serverless.com/blog/how-to-create-a-rest-api-in-java-using-dynamodb-and-serverless/
+
++ steps
+`npx create-react-app name --typescript`
+`npm i express express-graphql graphql`
+`npm i -D nodemon`
