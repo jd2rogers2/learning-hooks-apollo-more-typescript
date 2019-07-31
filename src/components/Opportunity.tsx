@@ -1,9 +1,11 @@
 import * as React from 'react';
 
-export const Opportunity: React.FC = () => {
-  return (
+export const Opportunity: React.FC<IOpportunityProps> = ({opportunity}) => {
+  return opportunity ? (
     <div>
-      Opportunity
+      {opportunity.title}
     </div>
+  ) : (
+    <div></div>
   );
 }
